@@ -88,7 +88,7 @@ function Signup() {
                         value={signupInfo.password}
                     />
                 </div>
-                <button type='submit'>Signup</button>
+                <button type='submit'>Sign up</button>
                 <span>Already have an account ?
                     <Link to="/login">Login</Link>
                 </span>

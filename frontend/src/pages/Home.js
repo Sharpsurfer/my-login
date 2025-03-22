@@ -41,7 +41,7 @@ function Home() {
     }, [])
 
     return (
-        <div>
+        <div className='container'>
             <h1>Welcome {loggedInUser}</h1>
             <button onClick={handleLogout}>Logout</button>
             <div>
